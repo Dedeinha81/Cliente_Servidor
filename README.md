@@ -66,9 +66,10 @@ python cliente.py
 1. Criar conta
 2. Login
 3. Sair
-Escolha (1-3): 1
+Escolha (1-3): 
 
 Digite seu CPF: 12345678900
+
 Crie uma senha: 1234
 
 ✅ Conta criada com sucesso!
