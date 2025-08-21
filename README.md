@@ -15,15 +15,22 @@ O objetivo é treinar conceitos de **APIs REST**, **FastAPI** e **consumo de ser
 ---
 
 ## 📂 Estrutura do projeto
-📁 Cliente_Servidor
 
-├── 📄 cliente.py # Código do cliente
+Cliente_Servidor/
 
-├── 📄 servidor.py # Código do servidor
+├── app/
 
-├── 📄 banco.db # Banco de dados SQLite (criado automaticamente)
+│ ├── banco.py # Conexão SQLite e criação de tabela
 
-└── 📄 README.md # Documentação do projeto
+│ ├── modelos.py # Modelos Pydantic (Conta)
+
+│ └── servidor.py # Rotas da API
+
+├── cliente.py # Cliente terminal que consome a API
+
+├── requirements.txt # Dependências
+
+└── banco.db # Banco SQLite (criado automaticamente)
 
 
 ---
@@ -46,33 +53,21 @@ git clone https://github.com/SEU_USUARIO/banco-online-python.git
 cd banco-online-python
 
 ---
-2️⃣ Instalar dependências
+2️⃣ Instalar dependências:
 
-pip install fastapi uvicorn requests
-
----
-3️⃣ Iniciar o servidor
-
-uvicorn servidor:app --reload
+pip install -r requirements.txt
 
 ---
-4️⃣ Executar o cliente
+
+3️⃣ Rodar o servidor:
+
+uvicorn app.servidor:app --reload
+
+---
+
+4️⃣ Rodar o cliente (em outro terminal):
+
 python cliente.py
-
----
-💻 Exemplo de uso
-
-===== BANCO ONLINE =====
-1. Criar conta
-2. Login
-3. Sair
-4. Escolha (1-3): 
-
-Digite seu CPF: 12345678900
-
-Crie uma senha: 1234
-
-✅ Conta criada com sucesso!
 
 ---
 
