@@ -42,14 +42,17 @@ O objetivo é treinar conceitos de **APIs REST**, **FastAPI** e **consumo de ser
 ### 1️⃣ Clonar o repositório
 
 git clone https://github.com/SEU_USUARIO/banco-online-python.git
+
 cd banco-online-python
 
 ---
 2️⃣ Instalar dependências
+
 pip install fastapi uvicorn requests
 
 ---
 3️⃣ Iniciar o servidor
+
 uvicorn servidor:app --reload
 
 ---
