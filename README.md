@@ -66,7 +66,7 @@ python cliente.py
 1. Criar conta
 2. Login
 3. Sair
-Escolha (1-3): 
+4. Escolha (1-3): 
 
 Digite seu CPF: 12345678900
 
