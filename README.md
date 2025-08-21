@@ -33,6 +33,15 @@ Cliente_Servidor/
 └── banco.db # Banco SQLite (criado automaticamente)
 
 
+> 🔎 Observações
+ 
+> - O arquivo `banco.db` é criado automaticamente quando a API sobe pela primeira vez.
+
+> - Se você não tiver o `__init__.py`, ainda funciona — mas é bom tê-lo para indicar pacote.
+
+> - O `cliente.py` usa `BASE_URL = "http://127.0.0.1:8000"`. Se você publicar a API, troque pela URL pública.
+
+
 ---
 
 ## ⚙️ Funcionalidades
