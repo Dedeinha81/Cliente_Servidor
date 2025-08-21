@@ -33,7 +33,7 @@ Cliente_Servidor/
 └── banco.db # Banco SQLite (criado automaticamente)
 
 
-> 🔎 Observações
+## 🔎 Observações
  
 > - O arquivo `banco.db` é criado automaticamente quando a API sobe pela primeira vez.
 
