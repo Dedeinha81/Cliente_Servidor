@@ -67,13 +67,16 @@ python cliente.py
 2. Login
 3. Sair
 Escolha (1-3): 1
+
 Digite seu CPF: 12345678900
 Crie uma senha: 1234
+
 ✅ Conta criada com sucesso!
 
 ---
 
 📖 Aprendizados
+
 📌 Como criar e consumir APIs REST com FastAPI
 
 📌 Como estruturar aplicações Cliente/Servidor em Python
