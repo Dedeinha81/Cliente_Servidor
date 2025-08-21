@@ -16,6 +16,7 @@ O objetivo é treinar conceitos de **APIs REST**, **FastAPI** e **consumo de ser
 
 ## 📂 Estrutura do projeto
 📁 Cliente_Servidor
+
 ├── 📄 cliente.py # Código do cliente
 
 ├── 📄 servidor.py # Código do servidor
