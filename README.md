@@ -20,17 +20,17 @@ Cliente_Servidor/
 
 ├── app/
 
-│ ├── banco.py # Conexão SQLite e criação de tabela
+│ ├── banco.py - Conexão SQLite e criação de tabela
 
-│ ├── modelos.py # Modelos Pydantic (Conta)
+│ ├── modelos.py - Modelos Pydantic (Conta)
 
-│ └── servidor.py # Rotas da API
+│ └── servidor.py - Rotas da API
 
-├── cliente.py # Cliente terminal que consome a API
+├── cliente.py - Cliente terminal que consome a API
 
-├── requirements.txt # Dependências
+├── requirements.txt - Dependências
 
-└── banco.db # Banco SQLite (criado automaticamente)
+└── banco.db - Banco SQLite (criado automaticamente)
 
 
 ## 🔎 Observações
